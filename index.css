@@ -1,0 +1,109 @@
+body{
+    background-color: cadetblue;
+}
+
+.nav-custom{
+    height: 100px;
+}
+.Imdb-link{
+     font-size:   50px;
+     color:rgb(205, 255, 213);
+}
+.favouriteMovie-link{
+    font-size: 20px;
+    color:rgb(205, 255, 213);
+}
+.Search-box{
+    width: 150px;
+}
+.cardlist{
+    width: 20%;
+    float: left;
+    text-align: right;
+    /* display: flex; */
+    margin: 30px;
+}
+.search-list :nth-child(4n+1){
+    clear: both;
+}
+#fav-btn{
+     cursor: pointer;
+}
+.mainCointainer{
+    text-align: center;
+}
+.movieDetail{
+    float: right;
+    
+}
+.Moviecardlist{
+    width: 60%;
+    float: left;
+    text-align: right;
+    display: flex;
+    margin: 40px;
+}
+.card-body{
+    margin-left: 6rem;
+    text-align: left;
+    width: 80%;
+    
+}
+.moviePlot{
+    word-wrap: break-word;
+}
+.movieYear{
+    display: inline;
+}
+#AddFavListbtn{
+    background-color: rgb(205, 255, 213);
+    width: max-content;
+    height: 40px;
+    margin: 20px;
+    float: right;
+    cursor: pointer;
+}
+.SearchMovie{
+    margin-right: 12px;
+    color: rgb(205, 255, 213);
+}
+.result-grid{
+    width: 95%;
+    height: 10%;
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(129, 169, 210);
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#delete-btn{
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: rgb(145, 240, 240);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(197, 210, 129);
+    position: absolute;
+    bottom: 0.5%;
+    right: 0.5%;
+    cursor: pointer;
+}
+.textCointainer{
+    float: left;
+    margin-left: 20%;
+    text-align: left;
+    width: 30%;
+    height: 100%;
+}
+.cardimgtop{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+ 
